@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bitel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <span>Bitel</span>
+    </div>
+
+    <nav class="nav">
+      <a href="Index.html" class="nav__link active">Inicio</a>
+      <a href="productos.html" class="nav__link">Productos</a>
+      <a href="servicios.html" class="nav__link">Servicios</a>
+      <a href="contacto.html" class="nav__link">Contacto</a>
+    </nav>
+
+    <button class="logout" type="button">Log out</button>
+  </aside>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">☰</button>
+    <h1>BIENVENIDOS A</h1>
+    <p class="subtitle">Un mundo nuevo a un clic de distancia</p>
+  </header>
+
+  <!-- Main content -->
+  <main id="home" class="content">
+    <!-- Hero (3 tarjetas) -->
+    <section class="hero">
+      <article class="hero__item">
+        <div class="ph"></div>
+        <h3>EQUIPOS NUEVOS</h3>
+      </article>
+      <article class="hero__item">
+        <div class="ph"></div>
+        <h3>INTERNET A TU CASA</h3>
+      </article>
+      <article class="hero__item">
+        <div class="ph"></div>
+        <h3>PROMOCIONES</h3>
+      </article>
+    </section>
+
+    <!-- Quiénes somos -->
+    <section class="card">
+      <h2>¿QUIÉNES SOMOS?</h2>
+      <p>
+        Somos una empresa dedicada a conectar a las familias con tecnología accesible.
+        Reemplaza este texto por tu contenido real (misión, valores, etc.).
+      </p>
+    </section>
+
+    <!-- Sé parte de nuestra familia (3 columnas) -->
+    <section class="card grid-3">
+      <h2 class="full">SÉ PARTE DE NUESTRA FAMILIA</h2>
+      <div class="ph ph--tall"></div>
+      <ul class="list">
+        <li>Planes flexibles</li>
+        <li>Instalación rápida</li>
+        <li>Soporte 24/7</li>
+      </ul>
+      <div class="ph ph--tall"></div>
+    </section>
+
+    <!-- Novedades (3 cajas) -->
+    <section id="productos" class="card">
+      <h2>NOVEDADES</h2>
+      <div class="grid-3">
+        <div class="ph"></div>
+        <div class="ph"></div>
+        <div class="ph"></div>
+      </div>
+    </section>
+
+    <!-- Contacto con teléfonos -->
+    <section id="contacto" class="card contact">
+      <h2>CONTACTO</h2>
+      <ul>
+        <li>📞 +51 9XX XXX XXX</li>
+        <li>📞 +51 9XX XXX XXX</li>
+        <li>📞 +51 9XX XXX XXX</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

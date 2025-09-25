@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Servicios — Bitel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <span>Bitel</span>
+    </div>
+
+    <nav class="nav">
+      <a href="./index.html" class="nav__link">Inicio</a>
+      <a href="./productos.html" class="nav__link">Products</a>
+      <a href="./servicios.html" class="nav__link active">Servicios</a>
+      <a href="./index.html#contacto" class="nav__link">Contacto</a>
+    </nav>
+
+    <button class="logout" type="button">Log out</button>
+  </aside>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">☰</button>
+    <h1>TENEMOS LOS SIGUIENTES SERVICIOS PARA TI</h1>
+    <p class="subtitle">Instalación, configuración y soporte para tu hogar o negocio</p>
+  </header>
+
+  <!-- Contenido -->
+  <main class="content">
+
+    <!-- Intro: Qué ofrecemos / Servicios principales -->
+    <section class="grid-2">
+      <article class="card">
+        <h2>¿QUÉ OFRECEMOS?</h2>
+        <p>
+          Paquetes a medida, instalación rápida y garantía. Asesoría antes y después de la venta.
+          Reemplaza este texto por tu descripción real.
+        </p>
+      </article>
+
+      <article class="card services-main">
+        <h2>NUESTROS SERVICIOS PRINCIPALES</h2>
+        <div class="services-main__body">
+          <p>
+            • Internet hogar y negocios<br>
+            • Cableado estructurado<br>
+            • CCTV y monitoreo<br>
+            • Wi-Fi Mesh & optimización
+          </p>
+          <div class="ph ph--tall"></div>
+        </div>
+      </article>
+    </section>
+
+    <!-- También ofrecemos -->
+    <section class="card also-offer">
+      <h2>TAMBIÉN OFRECEMOS</h2>
+      <ul class="checklist">
+        <li>✔ Mantenimiento preventivo</li>
+        <li>✔ Auditoría de red</li>
+        <li>✔ Integración con apps móviles</li>
+      </ul>
+    </section>
+
+    <!-- Proceso de trabajo -->
+    <section class="card process">
+      <h2>PROCESO DE TRABAJO</h2>
+      <div class="process__row">
+        <div class="step">
+          <div class="ph"></div>
+          <span>Diagnóstico</span>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="step">
+          <div class="ph"></div>
+          <span>Propuesta</span>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="step">
+          <div class="ph"></div>
+          <span>Instalación</span>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="step">
+          <div class="ph"></div>
+          <span>Soporte</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Datos / Crecimiento -->
+    <section class="card stats-grid">
+      <h2>NUESTROS DATOS SIGUEN EN CRECIMIENTO</h2>
+      <div class="stats-grid__inner">
+        <div class="illus ph"></div>
+        <div class="chart ph"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — Bitel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <span>Bitel</span>
+    </div>
+
+    <nav class="nav">
+      <a href="index.html#home" class="nav__link">Inicio</a>
+      <a href="productos.html" class="nav__link active">Products</a>
+      <a href="index.html#servicios" class="nav__link">Servicios</a>
+      <a href="index.html#contacto" class="nav__link">Contacto</a>
+    </nav>
+
+    <button class="logout" type="button">Log out</button>
+  </aside>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">☰</button>
+    <h1>ADQUIERE TU NUEVO EQUIPO YA!!!</h1>
+    <p class="subtitle">Encuentra lo que buscas al mejor precio</p>
+  </header>
+
+  <!-- Contenido -->
+  <main class="content">
+
+    <!-- Banner superior (placeholder a la derecha) -->
+    <section class="card headline">
+      <div class="headline__text">
+        <h2>Ofertas limitadas esta semana</h2>
+        <p>Los equipos más solicitados con instalación rápida y garantía.</p>
+      </div>
+      <div class="ph headline__media"></div>
+    </section>
+
+    <!-- Más vendidos -->
+    <section class="card">
+      <h2>NUESTROS PRODUCTOS MÁS VENDIDOS</h2>
+      <div class="product-grid">
+        <!-- Card 1 -->
+        <article class="product-card">
+          <div class="ph product-card__media"></div>
+          <h3>Router Dual Band</h3>
+          <ul class="bullets">
+            <li>Velocidad AC1200</li>
+            <li>4 puertos LAN</li>
+            <li>App de gestión</li>
+          </ul>
+        </article>
+        <!-- Card 2 -->
+        <article class="product-card">
+          <div class="ph product-card__media"></div>
+          <h3>Cámara 5MP</h3>
+          <ul class="bullets">
+            <li>Starlight / IR</li>
+            <li>Audio integrado</li>
+            <li>IP67</li>
+          </ul>
+        </article>
+        <!-- Card 3 -->
+        <article class="product-card">
+          <div class="ph product-card__media"></div>
+          <h3>Kit Wi-Fi Mesh</h3>
+          <ul class="bullets">
+            <li>Cobertura 300 m²</li>
+            <li>Roaming inteligente</li>
+            <li>Control parental</li>
+          </ul>
+        </article>
+        <!-- Card 4 -->
+        <article class="product-card">
+          <div class="ph product-card__media"></div>
+          <h3>NVR 4CH PoE</h3>
+          <ul class="bullets">
+            <li>H.265+</li>
+            <li>4 puertos PoE</li>
+            <li>Vista móvil</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Buscador y Opiniones -->
+    <section class="grid-2">
+      <div class="card">
+        <h2>¿QUÉ ESTÁS BUSCANDO?</h2>
+        <div class="search-box">
+          <input type="search" placeholder="Busca por modelo, marca o categoría…" />
+          <button id="btnBuscar" type="button">Buscar</button>
+        </div>
+        <div class="ph ph--tall" style="margin-top:12px"></div>
+      </div>
+
+      <div class="card">
+        <h2>TU OPINIÓN NOS IMPORTA</h2>
+        <div class="testimonial">
+          <blockquote>
+            “La instalación fue rapidísima y el soporte excelente. 100% recomendado.”
+          </blockquote>
+          <cite>— Cliente verificado</cite>
+        </div>
+        <div class="ph" style="margin-top:12px"></div>
+      </div>
+    </section>
+
+    <!-- Por qué elegirnos + tarjeta lateral -->
+    <section class="grid-2">
+      <div class="card">
+        <h2>¿POR QUÉ ELEGIRNOS?</h2>
+        <ul class="checklist">
+          <li>✔ Precios transparentes</li>
+          <li>✔ Técnicos certificados</li>
+          <li>✔ Garantía extendida</li>
+          <li>✔ Soporte 24/7</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ph ph--tall"></div>
+      </div>
+    </section>
+
+    <!-- Promociones -->
+    <section class="card cta-promo">
+      <h2>NO TE PIERDAS NUESTRAS PROMOCIONES</h2>
+      <form id="promoForm" class="promo-form">
+        <input type="email" required placeholder="Tu correo electrónico" />
+        <button type="submit">Quiero recibir ofertas</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
