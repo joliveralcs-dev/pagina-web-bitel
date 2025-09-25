@@ -20,9 +20,9 @@ setActive();
   links.forEach(a => {
     const href = a.getAttribute('href');
     // Activo si estoy en productos.html o si estoy en index.html (hash home/servicios/contacto)
-    const isProducts = path.includes('productos.html') && href.includes('productos.html');
+    const isProductos = path.includes('productos.html') && href.includes('productos.html');
     const isIndex = path.includes('index.html') && href.includes('index.html');
-    if (isProducts || isIndex) a.classList.add('active'); else a.classList.remove('active');
+    if (isProductos || isIndex) a.classList.add('active'); else a.classList.remove('active');
   });
 })();
 
